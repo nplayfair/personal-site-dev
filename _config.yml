@@ -18,8 +18,9 @@ email: contact@nickplayfair.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   Web developer from Nottingham, UK. Over the past few years I’ve been involved 
   in a number of projects doing frontend and backend development.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.nickplayfair.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Europe/London
 twitter_username: nplayfair
 github_username:  nplayfair
 
@@ -28,6 +29,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-gist
 exclude:
   - Gemfile
   - Gemfile.lock

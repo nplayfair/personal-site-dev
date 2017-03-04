@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "my personal site",
   "main": "index.html",
-  "dependencies": {
-    "material-design-icons": "^3.0.1"
-  },
   "devDependencies": {
     "svg-sprite": "^1.3.6"
   },
@@ -14,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huijing/blank-html5.git"
+    "url": "https://nplayfair@bitbucket.org/nplayfair/nickplayfair.git"
   },
   "author": "Nick Playfair",
   "license": "ISC"

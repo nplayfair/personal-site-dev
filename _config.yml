@@ -21,6 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.nickplayfair.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: Europe/London
+google_analytics: "UA-65796796-1"
 twitter_username: nplayfair
 github_username:  nplayfair
 

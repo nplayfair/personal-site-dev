@@ -23,10 +23,13 @@
  .wrapper {
   display: grid;
   grid-template-columns: 66% 34%;
+  grid-row-gap: 10px;
   grid-template-areas:
     "...... navigation"
     "...... content"
     "footer footer";
+  grid-template-rows: 10% auto 10%;
+  height: 60vh;
  }
 
 /**

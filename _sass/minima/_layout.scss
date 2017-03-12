@@ -2,12 +2,17 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  border: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 200px;
+  color: $text-color;
+  background-color: $brand-color;
+
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  // position: relative;
 }
 
 .site-title {

@@ -1,26 +1,27 @@
 // Define defaults for each variable.
 
 $base-font-family: Raleway, Helvetica Neue, Arial, sans-serif;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$header-font: Playfair Display, Times New Roman, Times, serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
 
-$spacing-unit:     30px !default;
+$spacing-unit:     30px;
 
-$text-color:       #fffff0 !default;
-$background-color: #292927 !default;
-$brand-color:      #8100df !default;
+$text-color:       #fffff0;
+$background-color: #292927;
+$brand-color:      #8100df;
 
 $grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    800px;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:          600px;
+$on-laptop:        800px;
 
 // Device widths
 
@@ -47,8 +48,8 @@ $desktop: 900px;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
+  // "minima/base",
+  // "minima/layout",
   "minima/syntax-highlighting"
 ;
 

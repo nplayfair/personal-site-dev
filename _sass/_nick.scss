@@ -22,6 +22,16 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+// Device widths
+
+$iphone5: 320px;
+$iphone6: 374px;
+$iphone6plus: 410px;
+
+$tablet: 767px;
+
+$desktop: 900px;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {

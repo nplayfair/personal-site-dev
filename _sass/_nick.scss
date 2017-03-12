@@ -25,3 +25,10 @@ $desktop: 900px;
 i.fa {
 	color: $grey-color;
 }
+
+div#photograph {
+	height: 50vh;
+	background: url('/assets/wheel4.jpg') no-repeat top;
+	opacity: 0.25;
+	background-size: 100%;
+}

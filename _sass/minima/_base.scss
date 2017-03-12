@@ -92,6 +92,19 @@ h1 {
   text-transform: uppercase;
   }
 
+header a {
+  color: $text-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $text-color;
+  }
+}
+
 
 /**
  * Links

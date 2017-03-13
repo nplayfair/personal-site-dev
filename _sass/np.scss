@@ -3,6 +3,9 @@
 $base-font-family: Raleway, Helvetica Neue, Arial, sans-serif;
 $header-font: Playfair Display, Times New Roman, Times, serif;
 $base-font-size:   16px;
+$header-size: 2.5rem;
+$medium-header-size: $header-size * 1.2;
+$large-header-size: $header-size * 1.6;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -25,6 +28,10 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$tablet: 760px;
+
+$desktop: 900px;
 
 $iphone5: 320px;
 $iphone6: 374px;

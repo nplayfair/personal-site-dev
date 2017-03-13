@@ -91,9 +91,12 @@ li {
 h1 { 
   font-family: $header-font;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: $header-size;
     @media screen and (min-width: $iphone6plus) {
-      font-size: 4rem;
+      font-size: $medium-header-size;
+    }
+    @media screen and (min-width: $tablet) {
+      font-size: $large-header-size;
     }
   color: $text-color;
   text-transform: uppercase;

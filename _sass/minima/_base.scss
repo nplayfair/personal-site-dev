@@ -105,6 +105,12 @@ h1 {
   margin-right: 5vw;
   }
 
+h2.page-title {
+  color: $brand-color;
+  font-size: $base-font-size * 2.5;
+  border-bottom: 2px dotted darken($brand-color, 25%);
+}
+
 
 h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;

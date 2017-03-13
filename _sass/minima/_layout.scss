@@ -35,6 +35,7 @@
   @media screen and (min-width: $tablet) {
       .wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10% auto 4vmax;
         grid-row-gap: 8vmax;
         grid-template-areas:
         "......   ......   navigation navigation"
@@ -66,7 +67,7 @@
   margin: 0;
 }
 
-
+// **************** old stuff
 .Oldsite-nav {
   float: right;
   line-height: 56px;
@@ -146,14 +147,17 @@
 
 .site-footer {
   grid-area: footer;
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color-dark;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .copyright {
- font-size: $small-font-size;
+  font-family: $header-font;
+  font-size: $small-font-size;
+  text-transform: uppercase;
+  color: $grey-color;
 
 }
 

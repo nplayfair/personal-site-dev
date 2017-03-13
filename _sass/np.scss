@@ -26,6 +26,10 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$iphone5: 320px;
+$iphone6: 374px;
+$iphone6plus: 410px;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -41,6 +45,7 @@ $on-laptop:        800px;
 
 // Import partials.
 @import
+	"minima/dimensions",
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"

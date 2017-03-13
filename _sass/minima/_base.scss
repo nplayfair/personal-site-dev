@@ -87,19 +87,25 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
-}
 
 h1 { 
   font-family: $header-font;
   font-weight: 400;
   font-size: 3rem;
+    @media screen and (min-width: $iphone6plus) {
+      font-size: 4rem;
+    }
   color: $text-color;
   text-transform: uppercase;
   text-align: right;
-  margin-right: 0.5em;
+  line-height: 1.2;
+  margin-right: 5vw;
   }
+
+
+h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
 
 header a {
   color: $text-color;

@@ -17,6 +17,25 @@
 
 }
 
+.small-header {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  min-height: 70px;
+  width: 100vw;
+  color: $text-color;
+  background-color: $header-color;
+    h1 {
+      margin: 0;
+      line-height: 1;
+    }
+}
+
+
+
+
 /**
  * Grid Wrapper
  */
@@ -157,7 +176,7 @@
   font-family: $header-font;
   font-size: $small-font-size;
   text-transform: uppercase;
-  color: $grey-color;
+  color: $title-border;
 
 }
 

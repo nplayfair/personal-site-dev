@@ -1,15 +1,16 @@
 ---
-layout: page
+layout: now
 title: Me
-permalink: /about/
+permalink: /now/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Nick, a web developer from Nottingham, UK. This is what I'm doing [now](http://nownownow.com/about).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+* Taking a course on Node.js
+* Going swimming
+* Playing the guitar (a Fender Jaguar)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+_Updated March, 2017_
+
+This site was made by writing a custom theme for [jekyll](https://jekyllrb.com/) using Sass and HTML, without frameworks. I'm planning on compiling the theme into a ruby gem at some stage, but it is constantly a work in progress...
+

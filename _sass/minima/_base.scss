@@ -108,7 +108,7 @@ h1 {
 h2.page-title {
   font-family: $base-font-family;
   color: $brand-color;
-  border-bottom: 2px dotted darken($brand-color, 25%);
+  border-bottom: 2px dotted $title-border;
   font-size: $base-font-size * 1.5;
     @media screen and (min-width: $tablet) {
       font-size: $base-font-size * 2.5;
